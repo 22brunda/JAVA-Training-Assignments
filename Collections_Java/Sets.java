@@ -66,23 +66,23 @@ public class Sets{
 
 //Sorting an ArrayList
   public void sortValues(){
-    System.out.println("Sorting an ArrayList");
-    HashSet<String> hash_Set = new HashSet<String>();
-    hash_Set.add("Java");
-    hash_Set.add("C");
-    hash_Set.add("C++");
-    hash_Set.add("Python");
-    hash_Set.add("VisualBacsics");
-    hash_Set.add("Pearl");
-    hash_Set.add("C#");
-    hash_Set.add("React");
-    hash_Set.add("Node.Js");
+    // System.out.println("Sorting an ArrayList");
+    // HashSet<String> hash_Set = new HashSet<String>();
+    // hash_Set.add("Java");
+    // hash_Set.add("C");
+    // hash_Set.add("C++");
+    // hash_Set.add("Python");
+    // hash_Set.add("VisualBacsics");
+    // hash_Set.add("Pearl");
+    // hash_Set.add("C#");
+    // hash_Set.add("React");
+    // hash_Set.add("Node.Js");
 
-    System.out.println("Contents of before sorting:" + hash_Set);
-      //Sorting HashSet using List interface
-    List<String> hash_Sets = new ArrayList<String>(hash_Set);
-    Collections.sort(hash_Sets);
-    System.out.println("HashSet elements after sorting: "+ hash_Set);
+    // System.out.println("Contents of before sorting:" + hash_Set);
+    //   //Sorting HashSet using List interface
+    // List<String> hash_Sets = new ArrayList<String>(hash_Set);
+    // Collections.sort(hash_Sets);
+    // System.out.println("HashSet elements after sorting: "+ hash_Set);
   }
 
 
